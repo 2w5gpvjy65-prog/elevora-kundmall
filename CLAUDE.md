@@ -1,6 +1,6 @@
 # Elevora UF – kundprojekt
 
-Det här repot är en webbsida som **Elevora UF** bygger åt en kund. Läs hela filen innan du gör något.
+Det här repot är en webbsida som **Elevora UF** bygger åt en kund. Varje kund får sin egen sida med sin egen design. Läs hela filen innan du gör något.
 Övre delen innehåller Elevoras gemensamma regler och är samma i alla kundprojekt. Nedre delen innehåller kundens egna uppgifter.
 
 ---
@@ -49,10 +49,14 @@ Det här repot är en webbsida som **Elevora UF** bygger åt en kund. Läs hela 
 - Ingen inline-JavaScript, eftersom CSP:n blockerar det. Lägg JS i `js/main.js`.
 - Tvåstegsverifiering på alla konton (kundens och Elevoras). Privata repon.
 
-### Design (Elevoras stil, anpassas efter kunden)
-- Professionellt och stilrent, inte "AI-mall". Inga generiska gradienter, inga rundade standardkort överallt, inga ritade figurer i stället för foton.
-- Kundens egna produktbilder, stora och snygga. Testa alltid mobilen först, eftersom kunderna kommer från Instagram och TikTok.
-- Färger och typsnitt styrs från `:root` i `css/style.css`.
+### Design: varje kund ska ha en EGEN sida och EGEN estetik
+- Mallens utseende (färger, typsnitt, layout) är bara ett **neutralt skelett**. Det får aldrig levereras som det är, och två kunder ska aldrig se likadana ut.
+- Utgå från **kundens varumärke**: logga, Instagram-flöde, produktbilder, målgrupp och känsla. Analysera dem och ta fram en egen riktning innan du bygger: färgpalett, typsnittspar, layout, bildstil och detaljer.
+- Använd skillen **frontend-design** för att hitta en distinkt, genomtänkt stil. Skriv in den valda riktningen i DEL 2 under "Stil" så att nästa session fortsätter i samma stil.
+- Bygg om `index.html` och `css/style.css` fritt: egna sektioner, egen hero, egen produktvisning. Behåll bara de tekniska delarna (formulär, Stripe-knappar, menyns Safari-fix, `_headers`, `wrangler.jsonc`).
+- Professionellt och stilrent, inte "AI-mall": inga generiska gradienter, inte samma rundade kort överallt, inga ritade figurer i stället för foton. Kundens egna bilder, stora och snygga.
+- Mobilen först, eftersom kunderna kommer från Instagram och TikTok. Testa alltid både mobil och dator med skärmdumpar.
+- Visa kunden 1–2 riktningar tidigt (skiss eller startsida) innan hela sidan byggs.
 
 ---
 

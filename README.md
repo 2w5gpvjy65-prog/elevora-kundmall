@@ -2,7 +2,7 @@
 
 Mall för varje ny kundsida. Skapa ett nytt repo med **Use this template**, så får kundprojektet:
 - `CLAUDE.md`: Elevoras gemensamma regler, plus en del att fylla i för kunden. Claude läser den automatiskt.
-- En enkel startsida: produktsektion med Stripe-knappar, kontaktformulär (Web3Forms), tack- och 404-sida.
+- Ett neutralt skelett (inte en färdig design, varje kund får egen estetik): produktsektion med Stripe-knappar, kontaktformulär (Web3Forms), tack- och 404-sida.
 - Säkerhetsrubriker (`_headers`) och Cloudflare-inställningar (`wrangler.jsonc`).
 
 ## Starta ett nytt kundprojekt
