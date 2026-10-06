@@ -24,7 +24,7 @@ h3 { font-size: 1.1rem; }
 .narrow { max-width: 680px; }
 .section { padding: 96px 0; }
 @media (max-width: 700px) { .section { padding: 64px 0; } }
-.hidden { display: none; }
+.hidden { display: none !important; }
 
 .btn { display: inline-flex; justify-content: center; align-items: center; padding: 14px 26px; background: var(--ink); color: var(--bg); border: 1px solid var(--ink); border-radius: 2px; font: inherit; font-weight: 500; text-decoration: none; cursor: pointer; }
 .btn:hover { background: var(--accent); border-color: var(--accent); }
